@@ -35,7 +35,7 @@ data_rbf_lorenz.m Train the network
   
   Obtain time series and derivative sequences with random starting points under different parameters and store them (obtain datasets)
 
-*rbf_chen.m 
+- rbf_chen.m 
   
   Train the network        
 
@@ -47,7 +47,7 @@ data_rbf_lorenz.m Train the network
   
   Calculate the approximate Jacobi matrix
 
-*bifurcation.m 
+- bifurcation.m 
   
   Get the bifurcation plot of equations and networks and determine the stability
 
