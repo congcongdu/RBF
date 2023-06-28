@@ -53,6 +53,10 @@ data_rbf_lorenz.m Train the network
 
 ## Folder: ECG
 
+- ZP.mat
+  
+  all the zero-points of the networks
+  
 - forFilterECG.m 
   
   Butterworth window filtering
@@ -69,11 +73,11 @@ data_rbf_lorenz.m Train the network
   
   Think of the trained network as a new function network, and use RK4 to calculate its time series
 
-- checkSameSide.m 
+- getPointSide.m 
   
   Check the position relationship of the point to the plane
 
-- Plane.m 
+- finfbestplane.m 
   
-  Look for the plane dividing the two clusters of points and plots
+  Look for the best plane dividing the two clusters of points and plots
   
